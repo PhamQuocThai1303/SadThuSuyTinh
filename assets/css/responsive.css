@@ -1,0 +1,105 @@
+/* PC */
+@media (min-width:64em) { /*64em = 1024px*/
+    
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em ) { /*63.9375em = 739px,740px=46.25em*/
+    
+}
+/* Mobile */
+@media (max-width:46.8175em ) {  /*46.8175em =739px*/
+
+    #nav {
+        display: block;
+        width: 100%;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px 41px;
+    }
+
+    #nav > li {
+        display: block;
+        position: relative;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #slider .text-content img{
+        max-width: 13%;
+    }
+
+    #slider .text-content .text-heading{
+        font-size: 25px;
+    }
+
+    #slider .text-content .text-description{
+        font-size: 20px;
+    }
+
+    #content .member-list .member-item {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+        height: 300px;
+        margin-bottom: 32px;
+    }
+
+    #content .member-name {
+        font-size: 20px;
+    }
+
+    #tour .s-col-full {
+        width: 100%;
+    }
+
+    #tour .place-buy-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact .contact-infor  {
+        display: block;
+        width: 100%;
+    }
+
+    #contact .contact-form {
+        display: block;
+        margin-top: 16px;
+    }
+
+    #contact .contact-form,
+    #contact .s-col-full {
+        width: 100%;
+    }
+
+    #contact .s-fill-mail {
+        margin-top: 8px;
+    }
+
+    #contact .form-submit {
+        width: 100%;
+    }
+}
