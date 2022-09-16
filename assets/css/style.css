@@ -176,7 +176,7 @@ html {
 #slider {
    margin-top: 46px;
    padding-top: 63%;
-   background-image: url('/assets/img/slider/spidersuy.jpg');
+   background-image: url('../img/slider/spidersuy.jpg');
    background-position:top center;
    background-repeat: no-repeat;
    background-size: cover;
